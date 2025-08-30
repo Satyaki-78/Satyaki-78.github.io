@@ -1,0 +1,107 @@
+body {
+    background-color: hsl(48, 8%, 12%);
+    text-align: center;   /* centers the whole profile block horizontally */
+    color:azure;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans';
+}
+
+#landing_image {
+    width: 300px;
+    border: 4px solid rgb(134, 134, 134);
+    border-radius: 5%;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 0 0 20px rgb(245, 235, 97);
+}
+
+#profile {
+    display: inline-block;
+}
+
+#Name_AlivePeriod {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 20px;
+    
+}
+
+#Name_AlivePeriod {
+    font-size: 2em;
+    font-family:'Lucida Sans';
+    font-weight: bold;
+}
+
+#introduction {
+    text-align: left;   
+}
+#whygreat {
+    text-align: left;
+}
+
+#scene {
+    width: 49%;
+    height: 315px;
+}
+
+#video-scene h2 {
+    width: 50%;
+    display: inline;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#compositionList {
+    column-count: 3;
+    column-gap: 33%;
+    text-align: left;
+    font-family: Tahoma;
+}
+
+#impact {
+    text-align: left;
+}
+
+#music-first-last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#tragedy {
+    text-align: left;
+}
+
+#magic-flute:link {
+    color: rgb(211, 224, 224);
+}
+#magic-flute:visited {
+    color: azure;
+}
+#magic-flute:hover {
+    color: rgb(159, 169, 169);
+}
+
+#mozart-wiki a:link {
+    color: rgb(211, 224, 224);
+}
+#mozart-wiki a:visited {
+    color: azure;
+}
+#mozart-wiki a:hover {
+    color: rgb(159, 169, 169);
+}
+
+.info {
+  background: rgb(42, 30, 45);
+  color: azure;
+  border-radius: 15px;
+  padding: 20px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 5px 7px hsl(48, 75%, 81%);
+  margin-bottom: 15px;
+}
