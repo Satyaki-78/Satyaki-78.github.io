@@ -45,13 +45,12 @@ body {
     height: 315px;
 }
 
-#video-scene h2 {
-    width: 50%;
-    display: inline;
+#video-scene {
+    display: flex;
     float: left;
     vertical-align: middle;
-    text-align: center;
-    padding-top: 5%;
+    justify-content: center;
+    align-items: center;
 }
 
 #compositions {
@@ -60,11 +59,12 @@ body {
 
 #compositionList {
     column-count: 3;
-    column-gap: 2rem;
+    column-gap: 2px;
     text-align: left;
     font-family: Tahoma;
-    overflow-wrap: break-word;
-    padding: 0px;
+    padding-left: 0%;
+    margin: 0%;
+    list-style-position: inside;
 }
 @media (max-width: 900px) {
     #compositionList {
@@ -75,10 +75,6 @@ body {
     #compositionList {
         column-count: 1;
     }
-}
-
-#compositionList li {
-    padding-left: 0;
 }
 
 #impact {
@@ -124,13 +120,4 @@ body {
   backdrop-filter: blur(8px);
   box-shadow: 0 5px 7px hsl(48, 75%, 81%);
   margin-bottom: 15px;
-
 }
-
-
-
-
-
-
-
-
