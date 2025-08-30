@@ -56,9 +56,10 @@ body {
 
 #compositionList {
     column-count: 3;
-    column-gap: 2%;
+    column-gap: 2rem;
     text-align: left;
     font-family: Tahoma;
+    overflow-wrap: break-word;
 }
 
 #impact {
@@ -106,4 +107,5 @@ body {
   margin-bottom: 15px;
 
 }
+
 
