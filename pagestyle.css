@@ -77,8 +77,8 @@ body {
     }
 }
 
-#compositionList li ul {
-    margin: 0.3rem 0;
+#compositionList li {
+    padding-left: 0;
 }
 
 #impact {
@@ -126,6 +126,7 @@ body {
   margin-bottom: 15px;
 
 }
+
 
 
 
