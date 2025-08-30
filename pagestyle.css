@@ -58,6 +58,7 @@ body {
     column-count: 3;
     column-gap: 2rem;
     text-align: left;
+    float: left;
     font-family: Tahoma;
     overflow-wrap: break-word;
 }
@@ -117,6 +118,7 @@ body {
   margin-bottom: 15px;
 
 }
+
 
 
 
