@@ -61,6 +61,16 @@ body {
     font-family: Tahoma;
     overflow-wrap: break-word;
 }
+@media (max-width: 900px) {
+    #compositionList {
+        column-count: 2;
+    }
+}
+@media (max-width: 600px) {
+    #compositionList {
+        column-count: 1;
+    }
+}
 
 #impact {
     text-align: left;
@@ -107,5 +117,6 @@ body {
   margin-bottom: 15px;
 
 }
+
 
 
