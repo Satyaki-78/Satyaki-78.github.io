@@ -77,6 +77,10 @@ body {
     }
 }
 
+#compositionList li ul {
+    margin: 0.3rem 0;
+}
+
 #impact {
     text-align: left;
 }
@@ -122,6 +126,7 @@ body {
   margin-bottom: 15px;
 
 }
+
 
 
 
